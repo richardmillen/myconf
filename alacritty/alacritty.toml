@@ -1,0 +1,14 @@
+# https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd
+
+[window]
+opacity = 0.8
+startup_mode = "Fullscreen"
+
+[font]
+normal.family = "FiraCode Nerd Font"
+size = 14.0
+
+[[keyboard.bindings]]
+chars = "#"
+key = "Key3"
+mods = "Alt"
