@@ -16,7 +16,10 @@ window:
       columns: 120 
       lines: 40
 
-    opacity: 0.7
+    opacity: 0.92
+
+    #startup_mode: "Fullscreen"
+    #startup_mode: "Maximized"
 
 font:
     normal:
@@ -85,7 +88,9 @@ cursor:
     # Thickness of the cursor (number from `0.0` to `1.0`)
     thickness: 0.18
     # Vi mode cursor style
-    vi_mode_style: Block
+    vi_mode_style: 
+        shape: "Block"
+        blinking: "On"
 
 # Default shell
 # For osx uncomment the following
